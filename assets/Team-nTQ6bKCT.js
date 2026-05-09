@@ -1,1 +1,0 @@
-import{C as e,I as t,M as n,P as r,S as i,T as a,Y as o,d as s}from"./GlobalStore.svelte-Bxz3KFgr.js";var c=a(`<article class="team svelte-11swe5y"><img class="svelte-11swe5y"/> <p class="svelte-11swe5y"> </p></article>`);function l(a,l){var u=c(),d=r(u),f=t(d,2),p=r(f,!0);o(f),o(u),n(()=>{s(d,`src`,l.img),s(d,`alt`,l.name),i(p,l.name)}),e(a,u)}export{l as t};

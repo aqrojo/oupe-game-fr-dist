@@ -1,94 +1,4 @@
 {
-  "gameConfig": {
-    "points": [
-      0,
-      5,
-      15,
-      25
-    ],
-    "probability": 100,
-    "teamsConfig": [
-      2,
-      3,
-      4
-    ],
-    "questionTimeout": 30,
-    "waitingTimeout": 3,
-    "roundsConfig": [
-      3,
-      5,
-      7
-    ]
-  },
-  "i18n": {
-    "game_name": "Juego Francés",
-    "number_of_teams": "Número de equipos",
-    "number_of_rounds": "Número de rondas",
-    "start": "Iniciar",
-    "instructions": "Instrucciones",
-    "audio": "Audio",
-    "on": "on",
-    "off": "off",
-    "credits": "Créditos",
-    "back": "Reiniciar",
-    "here_are_the_teams": "¡Aquí están los equipos!",
-    "play": "Jugar",
-    "round": "Ronda",
-    "continue": "Continuar",
-    "answer": "Responder",
-    "openQuestion": "Respuesta abierta",
-    "choices": "Opciones",
-    "image": "Imagen",
-    "mime": "Mímica",
-    "validate_response": "Evalúa la respuesta",
-    "its_correct": "¡Es correcto!",
-    "its_incorrect": "¡Es incorrecto!",
-    "disruption_x2": "<p>¡Puntos dobles!<br>¡Genial, los puntos cuentan como 2!</p>",
-    "disruption_plus_5": "<p>BONNE CHANCE!<br>L'ÉQUIPE GANA 5 POINTS!</p>",
-    "disruption_minus_5": "<p>¡Veneno!<br>El equipo pierde 5 puntos</p>",
-    "disruption_steal_5": "<p>¡ROBO DE PUNTOS!<br>LOS OTROS EQUIPOS PIERDEN 5 PUNTOS</p>",
-    "ranking": "Ranking",
-    "leaderboard": "Tabla de clasificación",
-    "back_to_menu": "Volver al menú"
-  },
-  "teams": [
-    {
-      "id": "team-01",
-      "img": "./teams/team-01.png"
-    },
-    {
-      "id": "team-02",
-      "img": "./teams/team-02.png"
-    },
-    {
-      "id": "team-03",
-      "img": "./teams/team-03.png"
-    },
-    {
-      "id": "team-04",
-      "img": "./teams/team-04.png"
-    },
-    {
-      "id": "team-05",
-      "img": "./teams/team-05.png"
-    },
-    {
-      "id": "team-06",
-      "img": "./teams/team-06.png"
-    },
-    {
-      "id": "team-07",
-      "img": "./teams/team-07.png"
-    },
-    {
-      "id": "team-08",
-      "img": "./teams/team-08.png"
-    },
-    {
-      "id": "team-09",
-      "img": "./teams/team-09.png"
-    }
-  ],
   "questions": {
     "audio": [
       {
@@ -334,66 +244,108 @@
         ]
       }
     ],
-    "mime": [
+    "image": [
       {
-        "id": "mime-question-01",
+        "id": "image-question-01",
         "question": "¿Qué monumento histórico es este?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Coliseo"
       },
       {
-        "id": "mime-question-02",
+        "id": "image-question-02",
         "question": "¿A qué país pertenece esta bandera?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Canadá"
       },
       {
-        "id": "mime-question-03",
+        "id": "image-question-03",
         "question": "¿Cómo se llama este famoso personaje de videojuegos?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Link"
       },
       {
-        "id": "mime-question-04",
+        "id": "image-question-04",
         "question": "¿Qué órgano del cuerpo humano se muestra en la imagen?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Corazón"
       },
       {
-        "id": "mime-question-05",
+        "id": "image-question-05",
         "question": "¿Quién es el autor de este cuadro?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Leonardo da Vinci"
       },
       {
-        "id": "mime-question-06",
+        "id": "image-question-06",
         "question": "¿Qué marca utiliza este logotipo?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Nike"
       },
       {
-        "id": "mime-question-07",
+        "id": "image-question-07",
         "question": "¿Cómo se llama este instrumento musical?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Violonchelo"
       },
       {
-        "id": "mime-question-08",
+        "id": "image-question-08",
         "question": "¿Qué especie de animal es el de la foto?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Panda rojo"
       },
       {
-        "id": "mime-question-09",
+        "id": "image-question-09",
         "question": "¿En qué ciudad se encuentra este edificio?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "París"
       },
       {
-        "id": "mime-question-10",
+        "id": "image-question-10",
         "question": "¿Qué constelación es la que aparece en la imagen?",
-        "imageUrl": "./mime-questions/demo-image.png",
+        "imageUrl": "./image-questions/demo-image.png",
         "answer": "Orión"
+      }
+    ],
+    "mimic": [
+      {
+        "id": "mimic-question-01",
+        "question": "Todos a dormir"
+      },
+      {
+        "id": "mimic-question-02",
+        "question": "Todos cantando como ovejas"
+      },
+      {
+        "id": "mimic-question-03",
+        "question": "Todos volando como aviones"
+      },
+      {
+        "id": "mimic-question-04",
+        "question": "Todos saltando como ranas"
+      },
+      {
+        "id": "mimic-question-05",
+        "question": "Todos jugando futbol"
+      },
+      {
+        "id": "mimic-question-06",
+        "question": "Todos pescando peces"
+      },
+      {
+        "id": "mimic-question-07",
+        "question": "Todos nadando como peces"
+      },
+      {
+        "id": "mimic-question-08",
+        "question": "Todos bailando swing"
+      },
+      {
+        "id": "mimic-question-09",
+        "question": "Todos escalando la montaña"
+      },
+      {
+        "id": "mimic-question-10",
+        "question": "Todos montando a caballo"
       }
     ],
     "openQuestion": [
