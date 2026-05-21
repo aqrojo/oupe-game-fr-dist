@@ -1,0 +1,1 @@
+import{E as e,L as t,Q as n,w as r}from"./disclose-version-sORj_1W-.js";import"./legacy-DFQF6J5e.js";import{o as i}from"./index-DqZrvbTS.js";var a=e(`<div class="container svelte-1lzua91"><!></div>`);function o(e){var o=a();i(t(o),{label:`Open response`}),n(o),r(e,o)}export{o as default};

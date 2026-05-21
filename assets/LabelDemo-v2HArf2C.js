@@ -1,1 +1,0 @@
-import{C as e,I as t,T as n,Y as r}from"./disclose-version-D4rOzvoV.js";import"./legacy-em5ua3ed.js";import{t as i}from"./RoundLabel-BvwmO5O5.js";var a=n(`<div class="container svelte-1hlinqd"><!></div>`);function o(n){var o=a();i(t(o),{label:`Tour`,round:1}),r(o),e(n,o)}export{o as default};
