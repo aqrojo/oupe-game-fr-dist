@@ -1,1 +1,0 @@
-import{E as e,J as t,L as n,Q as r,Y as i,a,w as o}from"./disclose-version-sORj_1W-.js";import"./legacy-DFQF6J5e.js";import{n as s,t as c}from"./GameBackground-o1kqL2WB.js";var l=e(`<div class="game-background-demo svelte-1ct1fma"><!></div>`);function u(e,u){i(u,!1),a();var d=l();c(n(d),{get status(){return s.QUESTION}}),r(d),o(e,d),t()}export{u as default};

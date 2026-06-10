@@ -1,244 +1,185 @@
 {
   "questions": {
-    "audio": [
-      {
-        "id": "audio-question-01",
-        "question": "¿Qué monumento histórico es este?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Coliseo"
-      },
-      {
-        "id": "audio-question-02",
-        "question": "¿A qué país pertenece esta bandera?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Canadá"
-      },
-      {
-        "id": "audio-question-03",
-        "question": "¿Cómo se llama este famoso personaje de videojuegos?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Link"
-      },
-      {
-        "id": "audio-question-04",
-        "question": "¿Qué órgano del cuerpo humano se muestra en la imagen?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Corazón"
-      },
-      {
-        "id": "audio-question-05",
-        "question": "¿Quién es el autor de este cuadro?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Leonardo da Vinci"
-      },
-      {
-        "id": "audio-question-06",
-        "question": "¿Qué marca utiliza este logotipo?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Nike"
-      },
-      {
-        "id": "audio-question-07",
-        "question": "¿Cómo se llama este instrumento musical?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Violonchelo"
-      },
-      {
-        "id": "audio-question-08",
-        "question": "¿Qué especie de animal es el de la foto?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Panda rojo"
-      },
-      {
-        "id": "audio-question-09",
-        "question": "¿En qué ciudad se encuentra este edificio?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "París"
-      },
-      {
-        "id": "audio-question-10",
-        "question": "¿Qué constelación es la que aparece en la imagen?",
-        "audioUrl": "audio-questions/audio-demo.mp3",
-        "answer": "Orión"
-      }
-    ],
+    "audio": [],
     "choices": [
       {
-        "id": "choice-question-01",
-        "question": "¿Cuántas patas tiene una araña?",
+        "id": "choice-question-001",
+        "instructions": "Choisissez la forme du verbe correcte.",
+        "question": "Nous ________ en Belgique.",
         "options": [
           {
-            "response": "6",
+            "response": "habitez",
             "isCorrect": false
           },
           {
-            "response": "8",
-            "isCorrect": true
-          },
-          {
-            "response": "10",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": "choice-question-02",
-        "question": "¿Cuál es el color que resulta de mezclar azul y amarillo?",
-        "options": [
-          {
-            "response": "Verde",
-            "isCorrect": true
-          },
-          {
-            "response": "Morado",
+            "response": "habitent",
             "isCorrect": false
           },
           {
-            "response": "Naranja",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": "choice-question-03",
-        "question": "¿Qué instrumento toca Lisa Simpson?",
-        "options": [
-          {
-            "response": "Flauta",
-            "isCorrect": false
-          },
-          {
-            "response": "Saxofón",
-            "isCorrect": true
-          },
-          {
-            "response": "Trompeta",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": "choice-question-04",
-        "question": "¿Cuál es la moneda oficial de Japón?",
-        "options": [
-          {
-            "response": "Yuan",
-            "isCorrect": false
-          },
-          {
-            "response": "Won",
-            "isCorrect": false
-          },
-          {
-            "response": "Yen",
+            "response": "habitons",
             "isCorrect": true
           }
         ]
       },
       {
-        "id": "choice-question-05",
-        "question": "¿Cuál es el tercer planeta desde el Sol?",
+        "id": "choice-question-002",
+        "question": "Choisissez la forme correcte.",
         "options": [
           {
-            "response": "Marte",
+            "response": "Où tu t’appelles ?",
             "isCorrect": false
           },
           {
-            "response": "Tierra",
+            "response": "Comment tu t’appelles ?",
             "isCorrect": true
           },
           {
-            "response": "Venus",
+            "response": "Qui tu t’appelles ?",
             "isCorrect": false
           }
         ]
       },
       {
-        "id": "choice-question-06",
-        "question": "¿Quién es el autor de 'El Principito'?",
+        "id": "choice-question-003",
+        "question": "Noël est en…",
         "options": [
           {
-            "response": "Antoine de Saint-Exupéry",
+            "response": "décembre",
             "isCorrect": true
           },
           {
-            "response": "Julio Verne",
+            "response": "février",
             "isCorrect": false
           },
           {
-            "response": "Oscar Wilde",
+            "response": "juin",
             "isCorrect": false
           }
         ]
       },
       {
-        "id": "choice-question-07",
-        "question": "¿Qué gas necesitamos respirar para sobrevivir?",
+        "id": "choice-question-004",
+        "question": "J’aime aider les autres. Je suis…",
         "options": [
           {
-            "response": "Nitrógeno",
+            "response": "bavard/e",
             "isCorrect": false
           },
           {
-            "response": "Helio",
+            "response": "brun/e",
             "isCorrect": false
           },
           {
-            "response": "Oxígeno",
+            "response": "gentil/le",
             "isCorrect": true
           }
         ]
       },
       {
-        "id": "choice-question-08",
-        "question": "¿En qué país se encuentra la Torre de Pisa?",
+        "id": "choice-question-005",
+        "question": "Elle est…",
         "options": [
           {
-            "response": "Francia",
-            "isCorrect": false
-          },
-          {
-            "response": "Italia",
+            "response": "roumaine",
             "isCorrect": true
           },
           {
-            "response": "Grecia",
+            "response": "roumain",
+            "isCorrect": false
+          },
+          {
+            "response": "roumaines",
             "isCorrect": false
           }
         ]
       },
       {
-        "id": "choice-question-09",
-        "question": "¿Cuántos minutos tiene una hora?",
+        "id": "choice-question-006",
+        "question": "Quelle phrase est à la forme négative ?",
         "options": [
           {
-            "response": "60",
-            "isCorrect": true
-          },
-          {
-            "response": "100",
+            "response": "Je suis danoise.",
             "isCorrect": false
           },
           {
-            "response": "50",
+            "response": "Je ne parle jamais anglais.",
+            "isCorrect": true
+          },
+          {
+            "response": "Je ne suis belge.",
             "isCorrect": false
           }
         ]
       },
       {
-        "id": "choice-question-10",
-        "question": "¿Cuál es el metal más caro del mundo?",
+        "id": "choice-question-007",
+        "instructions": "Choisissez le pronom correct.",
+        "question": "_________ êtes bavardes.",
         "options": [
           {
-            "response": "Oro",
+            "response": "Vous",
+            "isCorrect": true
+          },
+          {
+            "response": "Elles",
             "isCorrect": false
           },
           {
-            "response": "Platino",
+            "response": "Nous",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "choice-question-008",
+        "question": "Choisissez la phrase correcte.",
+        "options": [
+          {
+            "response": "Je suis douze ans.",
             "isCorrect": false
           },
           {
-            "response": "Rodio",
+            "response": "J’ai douze ans.",
+            "isCorrect": true
+          },
+          {
+            "response": "J’habite douze ans.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "choice-question-009",
+        "question": "Ils sont…",
+        "options": [
+          {
+            "response": "créatifs",
+            "isCorrect": true
+          },
+          {
+            "response": "créative",
+            "isCorrect": false
+          },
+          {
+            "response": "créatives",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "choice-question-010",
+        "question": "Quel adjectif est au féminin pluriel ?",
+        "options": [
+          {
+            "response": "roux",
+            "isCorrect": false
+          },
+          {
+            "response": "rousse",
+            "isCorrect": false
+          },
+          {
+            "response": "rousses",
             "isCorrect": true
           }
         ]
@@ -246,158 +187,171 @@
     ],
     "image": [
       {
-        "id": "image-question-01",
-        "question": "¿Qué monumento histórico es este?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Coliseo"
+        "id": "image-question-001",
+        "question": "C’est un…",
+        "imageUrl": "./image-questions/shutterstock-115202599.png",
+        "answer": "professeur"
       },
       {
-        "id": "image-question-02",
-        "question": "¿A qué país pertenece esta bandera?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Canadá"
+        "id": "image-question-002",
+        "question": "C’est une…",
+        "imageUrl": "./image-questions/shutterstock_2026190900.png",
+        "answer": "élève"
       },
       {
-        "id": "image-question-03",
-        "question": "¿Cómo se llama este famoso personaje de videojuegos?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Link"
+        "id": "image-question-003",
+        "question": "C’est une…",
+        "imageUrl": "./image-questions/carte_scolaire.png",
+        "answer": "carte scolaire"
       },
       {
-        "id": "image-question-04",
-        "question": "¿Qué órgano del cuerpo humano se muestra en la imagen?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Corazón"
+        "id": "image-question-004",
+        "question": "Quelle est sa nationalité ?",
+        "imageUrl": "./image-questions/shutterstock_2148592671.png",
+        "answer": "française"
       },
       {
-        "id": "image-question-05",
-        "question": "¿Quién es el autor de este cuadro?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Leonardo da Vinci"
+        "id": "image-question-005",
+        "question": "Quelle est sa nationalité ?",
+        "imageUrl": "./image-questions/shutterstock_418496530.png",
+        "answer": "espagnole"
       },
       {
-        "id": "image-question-06",
-        "question": "¿Qué marca utiliza este logotipo?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Nike"
+        "id": "image-question-006",
+        "question": "Comment il est ?",
+        "imageUrl": "./image-questions/shutterstock_102482054.png",
+        "answer": "blond"
       },
       {
-        "id": "image-question-07",
-        "question": "¿Cómo se llama este instrumento musical?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Violonchelo"
+        "id": "image-question-007",
+        "question": "Comment elle est ?",
+        "imageUrl": "./image-questions/shot-of-an-attractive-young-tennis-player-kissing-2025-04-06-01-48-06-utc.png",
+        "answer": "compétitive"
       },
       {
-        "id": "image-question-08",
-        "question": "¿Qué especie de animal es el de la foto?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Panda rojo"
+        "id": "image-question-008",
+        "question": "Comment il est ?",
+        "imageUrl": "./image-questions/shutterstock_418496530.png",
+        "answer": "créatif"
       },
       {
-        "id": "image-question-09",
-        "question": "¿En qué ciudad se encuentra este edificio?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "París"
+        "id": "image-question-009",
+        "question": "Comment elle est ?",
+        "imageUrl": "./image-questions/shutterstock_748501237.png",
+        "answer": "rousse"
       },
       {
-        "id": "image-question-10",
-        "question": "¿Qué constelación es la que aparece en la imagen?",
-        "imageUrl": "./image-questions/demo-image.png",
-        "answer": "Orión"
+        "id": "image-question-010",
+        "question": "Comment elle est ?",
+        "imageUrl": "./image-questions/Depositphotos_21564261_XL.png",
+        "answer": "gourmande"
       }
     ],
     "mimic": [
       {
-        "id": "mimic-question-01",
-        "question": "Todos a dormir"
+        "id": "mimic-question-001",
+        "question": "Imitez une personne silencieuse.",
+        "imageUrl": "./image-questions/teatro.png"
       },
       {
-        "id": "mimic-question-02",
-        "question": "Todos cantando como ovejas"
+        "id": "mimic-question-002",
+        "question": "Imitez une personne drôle.",
+        "imageUrl": "./image-questions/teatro.png"
       },
       {
-        "id": "mimic-question-03",
-        "question": "Todos volando como aviones"
+        "id": "mimic-question-003",
+        "question": "Dites un mot en italien.",
+        "imageUrl": "./image-questions/boca-a-boca.png"
       },
       {
-        "id": "mimic-question-04",
-        "question": "Todos saltando como ranas"
+        "id": "mimic-question-004",
+        "question": "Montrez votre professeur/e.",
+        "imageUrl": "./image-questions/senalando.png"
       },
       {
-        "id": "mimic-question-05",
-        "question": "Todos jugando futbol"
+        "id": "mimic-question-005",
+        "question": "Montrez une personne blonde.",
+        "imageUrl": "./image-questions/senalando.png"
       },
       {
-        "id": "mimic-question-06",
-        "question": "Todos pescando peces"
+        "id": "mimic-question-006",
+        "question": "Dessinez une personne grande.",
+        "imageUrl": "./image-questions/lapiz.png"
       },
       {
-        "id": "mimic-question-07",
-        "question": "Todos nadando como peces"
+        "id": "mimic-question-007",
+        "question": "Imitez une personne créative.",
+        "imageUrl": "./image-questions/teatro.png"
       },
       {
-        "id": "mimic-question-08",
-        "question": "Todos bailando swing"
+        "id": "mimic-question-008",
+        "question": "Imitez une personne compétitive.",
+        "imageUrl": "./image-questions/teatro.png"
       },
       {
-        "id": "mimic-question-09",
-        "question": "Todos escalando la montaña"
+        "id": "mimic-question-009",
+        "question": "Montrez un copain.",
+        "imageUrl": "./image-questions/senalando.png"
       },
       {
-        "id": "mimic-question-10",
-        "question": "Todos montando a caballo"
+        "id": "mimic-question-010",
+        "question": "Montrez une copine.",
+        "imageUrl": "./image-questions/senalando.png"
       }
     ],
     "openQuestion": [
       {
-        "id": "open-question-01",
-        "question": "¿Cuál es el río más largo del mundo?",
-        "answer": "Amazonas"
+        "id": "open-question-001",
+        "instructions": "Transformez cette phrase à la négation.",
+        "question": "Tu habites en France.",
+        "answer": "Tu n'habites pas en France."
       },
       {
-        "id": "open-question-02",
-        "question": "¿En qué continente se encuentra el desierto del Sahara?",
-        "answer": "África"
+        "id": "open-question-002",
+        "question": "Quelle mois vient après le mois avril ?",
+        "answer": "Mai"
       },
       {
-        "id": "open-question-03",
-        "question": "¿Cuál es el elemento químico representado por el símbolo 'Au'?",
-        "answer": "Oro"
+        "id": "open-question-003",
+        "question": "Où vous habitez ? Fais une phrase complète.",
+        "answer": "Nous habitons à…"
       },
       {
-        "id": "open-question-04",
-        "question": "¿Quién pintó la famosa obra 'La noche estrellada'?",
-        "answer": "Vincent van Gogh"
+        "id": "open-question-004",
+        "instructions": "Complète la question suivante :",
+        "question": "____________ tu t’appelles ?",
+        "answer": "Comment tu t'appelles ?"
       },
       {
-        "id": "open-question-05",
-        "question": "¿Cuál es el planeta más grande del sistema solar?",
-        "answer": "Júpiter"
+        "id": "open-question-005",
+        "question": "Quelle date est aujourd’hui ?",
+        "answer": ""
       },
       {
-        "id": "open-question-06",
-        "question": "¿En qué año terminó la Segunda Guerra Mundial?",
-        "answer": "1945"
+        "id": "open-question-006",
+        "question": "Comment s’appellent les habitants de l’Italie ?",
+        "answer": "Italiens"
       },
       {
-        "id": "open-question-07",
-        "question": "¿Cuál es el animal terrestre más veloz del mundo?",
-        "answer": "Guepardo"
+        "id": "open-question-007",
+        "instructions": "Transformez cette phrase au masculin :",
+        "question": "Elle est blonde.",
+        "answer": "Il est blond."
       },
       {
-        "id": "open-question-08",
-        "question": "¿Qué país tiene forma de bota?",
-        "answer": "Italia"
+        "id": "open-question-008",
+        "question": "Nommez un athlète français/e.",
+        "answer": "Marie-José Pérec"
       },
       {
-        "id": "open-question-09",
-        "question": "¿Cuál es el océano más grande de la Tierra?",
-        "answer": "Pacífico"
+        "id": "open-question-009",
+        "question": "Nommez un athlète espagnol/e.",
+        "answer": "Rafael Nadal"
       },
       {
-        "id": "open-question-10",
-        "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
-        "answer": "Miguel de Cervantes"
+        "id": "open-question-010",
+        "question": "Ton/ta professeur/e est brun/e ? Fais une phrase complète.",
+        "answer": "Non, ma professeure n'est pas brune, elle est rousse."
       }
     ]
   }
