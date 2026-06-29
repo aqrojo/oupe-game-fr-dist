@@ -1,6 +1,67 @@
 {
   "questions": {
-    "audio": [],
+    "audio": [
+      {
+        "id": "audio-question-01",
+        "question": "¿Qué monumento histórico es este?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Coliseo"
+      },
+      {
+        "id": "audio-question-02",
+        "question": "¿A qué país pertenece esta bandera?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Canadá"
+      },
+      {
+        "id": "audio-question-03",
+        "question": "¿Cómo se llama este famoso personaje de videojuegos?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Link"
+      },
+      {
+        "id": "audio-question-04",
+        "question": "¿Qué órgano del cuerpo humano se muestra en la imagen?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Corazón"
+      },
+      {
+        "id": "audio-question-05",
+        "question": "¿Quién es el autor de este cuadro?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Leonardo da Vinci"
+      },
+      {
+        "id": "audio-question-06",
+        "question": "¿Qué marca utiliza este logotipo?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Nike"
+      },
+      {
+        "id": "audio-question-07",
+        "question": "¿Cómo se llama este instrumento musical?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Violonchelo"
+      },
+      {
+        "id": "audio-question-08",
+        "question": "¿Qué especie de animal es el de la foto?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Panda rojo"
+      },
+      {
+        "id": "audio-question-09",
+        "question": "¿En qué ciudad se encuentra este edificio?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "París"
+      },
+      {
+        "id": "audio-question-10",
+        "question": "¿Qué constelación es la que aparece en la imagen?",
+        "audioUrl": "audio-questions/audio-demo.mp3",
+        "answer": "Orión"
+      }
+    ],
     "choices": [
       {
         "id": "choice-question-001",
@@ -231,7 +292,7 @@
       {
         "id": "image-question-008",
         "question": "Comment il est ?",
-        "imageUrl": "./image-questions/male-artist-holding-palette-2025-03-07-06-54-57-utc.png",
+        "imageUrl": "./image-questions/shutterstock_418496530.png",
         "answer": "créatif"
       },
       {
@@ -308,7 +369,7 @@
       },
       {
         "id": "open-question-002",
-        "question": "Quel mois vient après le mois d'avril ?",
+        "question": "Quelle mois vient après le mois avril ?",
         "answer": "Mai"
       },
       {
